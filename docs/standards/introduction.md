@@ -1,6 +1,13 @@
+import Layout from '@theme/Layout';
+import Box from '../../src/components/Box';
+
+import styles from '../../src/css/standards.module.scss';
+
 ---
+
 title: 'Introduction'
 sidebar_position: 1
+
 ---
 
 # The LUKSO Standard Proposals (LSPs)
@@ -43,13 +50,25 @@ The following documentation describes the fundamentals of the standards and tech
 
 ## LSPs Foundation
 
-This section lists and describes the first ten Standards representing the foundation of **LUKSO's ecosystem**.
-
-They introduce new concepts like **blockchain-based accounts** (also known as **Universal Profiles**), **Digital Assets, and NFT 2.0**.
-
 :::note
 The standards are **order-independent** and could be related to a **backward or forward** order.
 :::
+
+<div className={styles.container}>
+    <div className={styles.cardContainer}>
+        <p>section 1</p>
+    </div>
+    <div className={styles.cardContainer}>
+        <p>section 1</p>
+    </div>
+    <div className={styles.cardContainer}>
+        <p>section 1</p>
+    </div>
+</div>
+
+This section lists and describes the first ten Standards representing the foundation of **LUKSO's ecosystem**.
+
+They introduce new concepts like **blockchain-based accounts** (also known as **Universal Profiles**), **Digital Assets, and NFT 2.0**.
 
 ![lsp-roadmap](/img/standards/introduction/lsp-roadmap.jpg)
 
